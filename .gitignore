@@ -1,0 +1,29 @@
+# Arquivo .gitignore para o projeto CloudBot
+
+# 1. Dependências e Ambientes Virtuais
+# Ignora a pasta do ambiente virtual para não enviar todas as bibliotecas instaladas.
+/venv/
+/.venv/
+env/
+.env.*
+
+# 2. Segredos e Configurações de Ambiente
+# CRUCIAL: Nunca envie sua chave de API ou outros segredos para o repositório.
+.env
+
+# 3. Arquivos Gerados pela Aplicação
+# A pasta vector_store é gerada pelo ingest.py e não deve ser versionada.
+# Ela pode ser grande e será recriada a partir da pasta /data.
+/vector_store/
+
+# 4. Caches e Arquivos Compilados do Python
+# Mantém o repositório limpo de arquivos temporários do Python.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 5. Pastas de Configuração de IDEs (Boa prática)
+# Ignora arquivos de configuração de editores de código populares.
+.vscode/
+.idea/
