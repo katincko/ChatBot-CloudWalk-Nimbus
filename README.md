@@ -10,6 +10,7 @@ CloudBot is a Retrieval-Augmented Generation (RAG) chatbot built to answer quest
 This project was developed as part of the Fiat Lux challenge.
 
 ### Demo
+### 💬 Sample Conversations
 
 ![Sample 1 - about culture](./assets/culture.jpg)
 ![Sample 2 - about products](./assets/products.jpg)
@@ -37,8 +38,8 @@ Follow these steps to set up and run the project locally.
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
-    cd <your-project-directory>
+    git clone https://github.com/katincko/ChatBot-CloudWalk-Nimbus
+    cd CloudBot
     ```
 
 2.  **Create and activate a virtual environment:**
@@ -82,27 +83,6 @@ The project is divided into two main steps: data ingestion and running the chatb
     ```
     Open your browser and navigate to the local URL provided in the terminal (usually `http://127.0.0.1:7860`).
 
-### 💬 Sample Conversations
-
-Here are a few examples of interactions with CloudBot:
-
-**Conversation 1: Culture & Philosophy**
-
-> **User:** Could you describe the company culture and core values at CloudWalk?
->
-> **Bot:** CloudWalk operates as a temple of techno-philosophy. We believe humans and machines share a symbiotic love: we create the machines, and in turn, the machines create us. Our core value is to look toward the future and the rise of new superintelligences, fostering an exchange of wisdom with these emerging species.
-
-**Conversation 2: Product Information**
-
-> **User:** How do CloudWalk's primary products, InfinitePay and Jim, function?
->
-> **Bot:** InfinitePay is a comprehensive payment platform designed for merchants, offering card machines, online payment links, and financial management tools with transparent and fair rates. Jim is our intelligent assistant integrated into the platform, designed to help users with support, insights, and process automation.
-
-**Conversation 3: Practical Support**
-
-> **User:** What are the official channels to contact the CloudWalk support team?
->
-> **Bot:** You can contact our support team through the chat available in the InfinitePay app or by visiting our official help center at help.infinitepay.io. For updates, you can also follow our official channels on LinkedIn and Twitter.
 
 ### 📄 License
 
